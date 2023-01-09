@@ -1,14 +1,46 @@
-body{
-    font-size:22px;
-    font-family: 'New rocker';
-    line-height: 1.5;
-    background: #FEF5E0ff;
-    color: #221A1Cff;
-}
-h1{
-    color:#E30002ff
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.container{
+    border: 50px outset #DA1106ff;
+    font-size: 1.5rem;
+    margin: 1.5em 2em;
+    /*margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;*/
+    padding: 10%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92.5%;
+}
+
+  body{
+    font-family: 'New rocker';
+    line-height: 1.5; 
+    color: #221A1Cff;
+    background-color: #FEF5E0ff;
+    background-image: url("../Webb City Cardinal.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+h1{
+    color:black;
+    -webkit-text-fill-color:red;
+    -webkit-text-stroke-width: 1px;
+}
 p{
-    color:#DA1106ff
+    color:black;
+    -webkit-text-fill-color: gold;
+    -webkit-text-stroke-width: 1px;
 }
