@@ -26,11 +26,11 @@
     font-family: 'New rocker';
     line-height: 1.5; 
     color: #221A1Cff;
-    background-color:cornflowerblue;
-    background-image: url("../Webb City Cardinal.png");
-    background-repeat: no-repeat;
+    background-color:black;
+    background-image: url("../Webb\ City\ Cardinal2.png");
     background-position: center center;
     background-size: 45%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
