@@ -27,9 +27,9 @@
     line-height: 1.5; 
     color: #221A1Cff;
     background-color:black;
-    background-image: url("../Webb\ City\ Cardinal2.png");
+    background-image: url("../bird\ 3.jpg");
     background-position: center center;
-    background-size: 45%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
