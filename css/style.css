@@ -6,7 +6,7 @@
 
 .container{
     border: 20px outset #DA1106ff;
-    font-size: 1.0rem; 
+    
     margin: 0.5em 0.5em;
     /*margin-top: 1.5em;
     margin-right: 2em;
@@ -26,21 +26,21 @@
     font-family: 'New rocker';
     line-height: 1.5; 
     color: #221A1Cff;
-    background-color: #FEF5E0ff;
+    background-color:cornflowerblue;
     background-image: url("../Webb City Cardinal.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 50%;
+    background-size: 45%;
     background-attachment: fixed;
 }
 
 h1{
     color:black;
-    -webkit-text-fill-color:red;
+    -webkit-text-fill-color: red;
     -webkit-text-stroke-width: 1px;
 }
 p{
     color:black;
-    -webkit-text-fill-color: gold;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color:gold;
+    -webkit-text-stroke-width: .6px;
 }

@@ -8,11 +8,15 @@
         <link href='https://fonts.googleapis.com/css?family=New Rocker' rel='stylesheet'>
         <link rel="stylesheet" href="css/style.css">
         <title>WebbCityFireDepartment</title>
+        <style>
+        #more {display: none;}
+        #moreDos {display: none}
+        </style>
     </head>
 
     <body>
         <header>
-            <img width="700" src="WCfirelogo.jpg" alt="WCfire" class="center">
+            <img src="WCfirelogo.jpg" alt="WCfire" class="center">
         </header>
         <main class="container">
             <h1>Our Mission Statement:</h1>
@@ -23,8 +27,8 @@
             </p>
             &nbsp;
             <h1>Fire History:</h1>
-            <img width="300" src="city-hall-fire-dept.jpg" alt="a guy with a mullett" />
-            <p>The first Webb City Fire volunteer fire department was established in 1889 under the leadership of Fire Chief Henry Wonner.
+            <img width="200" src="city-hall-fire-dept.jpg" alt="Fire department history" />
+            <p>The first Webb City Fire volunteer fire department was established in 1889 <span id="dots">...</span><span id="more"> under the leadership of Fire Chief Henry Wonner.
                  Webb City Fire Department became an all-paid department in 1899.
                  This was also the first year the department received their first hose wagon and horses. 
                  In 1910 the citizens of Webb City voted on a bond issue to purchase the first auto fire apparatus and a ladder truck for $10,000.00 
@@ -37,21 +41,60 @@
                  The current station has six drive thru bays and eight individual bedrooms.
                  The station houses Engine one a Ferrara Pumper, two Freightliner Engines, one Ferrara ladder Truck, F-350 Brush Truck,
                  Ford F-150 Battalion Chiefs Truck, and the Chief’s vehicle. The department has a staff of 19 full-time personnel.
-                 The department is led by Fire Chief Andrew Roughton and Battalion Chief’s Jackie Clark, Scott Pink, and Jeremy Denton.</p>
-                &nbsp;
+                 The department is led by Fire Chief Andrew Roughton and Battalion Chief’s Jackie Clark, Scott Pink, and Jeremy Denton.</span></p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+
+                        <script>
+                        function myFunction(){
+                            var dots = document.getElementById("dots");
+                            var moreText = document.getElementById("more");
+                            var btnText = document.getElementById("myBtn");
+                   
+                
+                        if (dots.style.display === "none") {
+
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "Read more";
+                            moreText.style.display = "none";
+                        
+                        } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less";
+                            moreText.style.display = "inline";
+                            }   
+                        }
+                        </script>
+
             <h1> Insurance Services Organization Rating:</h1>
-            <img width="300" src="iso.png" alt="a guy with a mullett" />
+            <img width="200" src="iso.png" alt="ISO" />
             
-            <p> The ISO rating is the measuring tool used by Insurance Companies to set rates for Homeowner’s and Businesses based on our fire protection resources.
+            <p> The ISO rating is the measuring tool used by Insurance Companies <span id="dotsDos">...</span><span id="moreDos"> to set rates for Homeowner’s and Businesses based on our fire protection resources.
                  The lower the rating the better the rates. After years of continued support from our City Council, City Management, 
                  Water Department, and Citizens the hard work of our fire department paid off with a notice from ISO that Webb City 
-                 would have a Fire rating of Three (3) beginning June 1 2008.
-            </p>
-            &nbsp;
+                 would have a Fire rating of Three (3) beginning June 1 2008.</span></p>
+                <button onclick="myFunctionDos()" id="myBtnDos">Read more</button>
+
+                        <script>
+                        function myFunctionDos() {
+                            var dotsDos = document.getElementById("dotsDos");
+                            var moreTextDos = document.getElementById("moreDos");
+                            var btnTextDos = document.getElementById("myBtnDos");
+
+                        if (dotsDos.style.display === "none") {
+                            dotsDos.style.display = "inline";
+                            btnTextDos.innerHTML = "Read more";
+                            moreTextDos.style.display = "none";
+                        } else {
+                            dotsDos.style.display = "none";
+                            btnTextDos.innerHTML = "Read less";
+                            moreTextDos.style.display = "inline";
+                            }
+                        }
+                        </script>
             <h1>Links:</h1>
             &nbsp;
             <a href="https://www.facebook.com/webbcityfire">
-            <img width="200" src="fb1.png" alt="FACE_BOOK" />
+            <img width= "200" src="fb1.png" alt="FACE_BOOK" />
             <br>
             <br> <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0GPEH5SrhUoUSJe5xjAgoyvQDttYQhtHGfNVVD_I68a2u8w/viewform?usp=sf_link">ONLINE JOB APPLICATION</a>
         </main>
