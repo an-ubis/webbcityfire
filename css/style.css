@@ -34,11 +34,21 @@
     background-attachment: fixed;
 }
 
+
+
 h1{
     color:black;
     -webkit-text-fill-color: red;
     -webkit-text-stroke-width: 1px;
 }
+h2{
+    color:red;
+    -webkit-text-fill-color: gold;
+    -webkit-text-stroke-width: 1px;
+
+}
+
+
 p{
     color:black;
     -webkit-text-fill-color:white;
@@ -149,7 +159,25 @@ li.dropdown {
 
 
 
+/* unvisited link */
+a:link {
+  color: none
+}
 
+/* visited link */
+a:visited {
+  color: none;
+}
+
+/* mouse over link */
+a:hover {
+color: black;
+}
+
+/* selected link */
+a:active {
+  color: rgb(82, 0, 0);
+} 
 
 
   

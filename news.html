@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=New Rocker' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>WebbCityFireDepartment</title>
+    <style>
+        #more {display: none;}
+        #moreDos {display: none}
+        </style>
+    </head>
+
+    <body>
+        
+    
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="News.html">News</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">More...</a>
+            <div class="dropdown-content">
+              <a href="contactinfo.html">Contact Information</a>
+              <a href="aboutus.html">About Us</a>
+              <a href="joinourteam.html">Join Our Team</a>
+            </div>
+          </li>
+        </ul>
+
+        <main class="container">
+            <h1>News and events:</h1>
+            <p>Upcoming events will be posted to this page soon. Stay tuned!</p>
+            <br>
+            <br>
+            <br>
+            <h1> Insurance Services Organization Rating:</h1>
+            <img width="200" src="iso.png" alt="ISO" />
+            
+            <p> The ISO rating is the measuring tool used by Insurance Companies <span id="dotsDos">...</span><span id="moreDos"> to set rates for Homeowner’s and Businesses based on our fire protection resources.
+                 The lower the rating the better the rates. After years of continued support from our City Council, City Management, 
+                 Water Department, and Citizens the hard work of our fire department paid off with a notice from ISO that Webb City 
+                 would have a Fire rating of Three (3) beginning June 1 2008.</span></p>
+                
+                    <button onclick="myFunctionDos()" id="myBtnDos">Read more</button>
+
+                        <script>
+                        function myFunctionDos() {
+                            var dotsDos = document.getElementById("dotsDos");
+                            var moreTextDos = document.getElementById("moreDos");
+                            var btnTextDos = document.getElementById("myBtnDos");
+
+                        if (dotsDos.style.display === "none") {
+                            dotsDos.style.display = "inline";
+                            btnTextDos.innerHTML = "Read more";
+                            moreTextDos.style.display = "none";
+                        } else {
+                            dotsDos.style.display = "none";
+                            btnTextDos.innerHTML = "Read less";
+                            moreTextDos.style.display = "inline";
+                            }
+                        }
+                        </script>
+        </main>
+    </body>
+</html>
